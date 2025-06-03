@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 15vh;
+    border: 0.8px solid lightgrey;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar img{
+    height: 100%;
+    width: 10vw;
+}
+.but1{
+    position: absolute;
+    right: 10px;
+    width: 8vw;
+    height: 7vh;
+    color: black;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+.but2{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    width: 8vw;
+    height: 7vh;
+    color: black;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightseagreen;
+}
+form{
+    position: relative;
+    left: 400px;
+}
+.search{
+    width: 35vw;
+    height: 7vh;
+    font-size: 1.5rem;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    /* border-radius: 10px; */
+}
+.lab{
+    padding: 15px;
+    /* padding-top: ; */
+    color: white;
+    border: 2px solid white;
+    /* border-radius: 10px; */
+    background-color: black;
+    position: relative;
+    bottom: -4px;
+    left: 4px;
+    
+
+}
+.first{
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.first img{
+    width: 90%;
+    height: 250px;
+    margin-left: 80px;
+}
+.two{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    position: relative;
+    /* right: 50px; */
+    flex-wrap: wrap;
+
+}
+.two img{
+    width: 400px;
+    height: 200px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.bread {
+    margin-left: 80px;
+}
+.egg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.milk{
+    height: 350px;
+    width: 230px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 10px;
+    position: relative;
+}
+.milk img{
+    width: 100%;
+    height: 60%;
+}
+.milk button{
+    width: 80px;
+    height: 35px;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    position: absolute;
+    left: 130px;
+    bottom: 10px;
+    color: rgb(62, 122, 1);
+    border: 1px solid rgb(58, 116, 1);
+}
+#snak{
+    margin-top: 20px;
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .but2{
+    position: absolute;
+    right: 130px;
+    width: 7.5vw;
+    height: 6.5vh;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightseagreen;
+}
+.but1{
+    position: absolute;
+    right: 10px;
+    width: 7.5vw;
+    height: 6.5vh;
+    color: black;
+    font-size: 0.9rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+form{
+    position: relative;
+    left: 280px;
+}
+.search{
+    width: 30vw;
+    height: 7vh;
+    font-size: 1rem;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+}
+.lab{
+    padding: 16px;
+    padding-top: 13px; 
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    background-color: black;
+    position: relative;
+    bottom: 1px;
+
+}
+.bread {
+    margin-left: 50px;
+}
+} 
+@media screen and (min-width:768px) and (max-width:991px) {
+    .but2{
+    position: absolute;
+    right: 100px;
+    width: 7.5vw;
+    height: 6.5vh;
+    color: black;
+    font-size: .9rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightseagreen;
+}
+.but1{
+    position: absolute;
+    right: 10px;
+    width: 7.5vw;
+    height: 6.5vh;
+    color: black;
+    font-size: 0.9rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+.first img{
+    margin-left: 40px;
+}
+form{
+    position: relative;
+    left: 200px;
+}
+.search{
+    width: 30vw;
+    height: 7vh;
+    font-size: 1rem;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+}
+.lab{
+    padding: 14px;
+    padding-top: 15px;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    background-color: black;
+    position: relative;
+    /* bottom: 2px; */
+    top: 1px;
+
+}
+.bread {
+    margin-left: 30px;
+}
+} 
+@media screen and (min-width:576px) and (max-width:767px) {
+    .but2{
+    position: absolute;
+    right: 90px;
+    width: 9vw;
+    height: 6.5vh;
+    color: black;
+    font-size: .8rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightseagreen;
+}
+.but1{
+    position: absolute;
+    right: 10px;
+    width: 9vw;
+    height: 6.5vh;
+    color: black;
+    font-size: 0.9rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+.first img{
+    margin-left: 30px;
+}
+form{
+    position: relative;
+    left: 100px;
+}
+.search{
+    width: 30vw;
+    height: 6.9vh;
+    font-size: 1rem;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+}
+.lab{
+    padding: 14px; 
+    padding-top: -px;
+    padding-bottom: -px;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    background-color: black;
+    position: relative;
+    bottom: .1px;
+    
+
+}
+.bread {
+    margin-left: 15px;
+}
+}
+@media screen and (max-width:575px){
+    .navbar{
+    width: 100vw;
+    height: 20vh;
+    border: 0.8px solid lightgrey;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+.navbar img{
+    height: 80%;
+    width: 20vw;
+    position: relative;
+    bottom: 30px;
+}
+.first img{
+    margin-left: 25px;
+}
+.but1{
+    position: absolute;
+    right: 10px;
+    width: 20vw;
+    height: 7vh;
+    color: black;
+    top: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+.but2{
+    position: absolute;
+    right: 150px;
+    width: 15vw;
+    top: 10px;
+    height: 7vh;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightseagreen;
+}
+form{
+    position: relative;
+    left: -20px;
+    top: 30px;
+}
+.search{
+    width: 60vw;
+    height: 6vh;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+}
+.lab{
+    padding: 10px;
+    padding-top: 11px;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    background-color: black;
+    position: relative;
+    bottom: 2px;
+    /* top: 2px; */
+
+}
+.bread {
+    margin-left: 0px;
+}
+} 
+@media screen and (min-width:1200px)  {
+    .but2{
+    position: absolute;
+    right: 130px;
+    width: 7.5vw;
+    height: 6.5vh;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightseagreen;
+}
+.but1{
+    position: absolute;
+    right: 10px;
+    width: 7.5vw;
+    height: 6.5vh;
+    color: black;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+form{
+    position: relative;
+    left: 200px;
+}
+.search{
+    width: 30vw;
+    height: 7vh;
+    font-size: 1rem;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+}
+.lab{
+    padding: 15px;
+    padding-top: 15px;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    background-color: black;
+    position: relative;
+    /* bottom: 2px; */
+    top: 1px;
+
+}
+} 
+.cont{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+.cont i{
+    margin: 4px;
+}

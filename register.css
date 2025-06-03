@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parant{
+    width: 500px;
+    height: 650px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 5);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+    backdrop-filter: blur(20px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parant .child{
+    width: 100%;
+    padding: 40px;
+}
+.child h2{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.box label{
+    font-size: 1.2rem;
+    color: black;
+}
+.box input{
+    width: 60%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 7px;
+    position: absolute;
+    right: 15px;
+    font-size: 1.1rem;
+    color: black;
+    padding-left: 5px;
+    background-color: transparent;
+} 
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.reg{
+    text-align: center;
+    margin: 20px 0px 10px;
+    color: black;
+}
+.reg p a{
+    text-decoration: none;
+    color: black;
+}
+.reg p a:hover{
+    text-decoration: underline;
+}
